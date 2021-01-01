@@ -1,0 +1,44 @@
+.Burger {
+    margin: auto;
+    width: 75%;
+    height: 710px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float: left;
+    background-image: radial-gradient(92.05% 50% at 50.07% 0%, #733700 0%, #201001 100%);
+}
+
+.burger-container {
+    overflow-y: scroll;
+    height: 300px;
+    margin: 70px 0px 0px 0px;
+}
+
+.burger-container::-webkit-scrollbar {
+    display: none;
+}
+
+.burger-footer {
+    margin-top: 220px;
+}
+
+.primary-heading {
+    color: #FFD600;
+    font-size: 48px;
+}
+
+.para {
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.text-primary {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    font-weight: 700;
+}

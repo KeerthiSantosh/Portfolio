@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.BuildControls {
+  background-color: #ffff;
+  display: flex;
+  flex-flow: column;
+  height: 710px;
+}
+
+.BuildControls h2 {
+  font-size: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 0px 30px 20px;
+}
+
+/* .BuildControls .btn {
+  background-color: white;
+  margin-right:30px;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0.5px solid #321b06;
+} */
+/* .sizeChart {
+  padding: 20px 0px 20px 20px;
+  width:100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sizeChart .btn {
+  margin-top: 10px;
+} */
+.burger-price {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 80px;
+}
+
+.total-price {
+  font-size: 25px;
+  width: 100%;
+  font-weight: 600;
+  padding: 0px 0px 0px 20px;
+  margin-top: 100px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.order-btn {
+  outline: none;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: auto;
+  background-color: #ffd600;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.order-btn:disabled {
+  background-color: #C7C6C6;
+  cursor: not-allowed;
+  border: 1px solid #ccc;
+  color: #888888;
+}

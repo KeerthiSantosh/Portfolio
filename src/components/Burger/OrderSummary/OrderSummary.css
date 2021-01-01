@@ -1,0 +1,46 @@
+.order-heading h2 {
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0px 0px 10px 15px;
+    background-color: #ffd600;
+    height: 100%;
+}
+
+.order-details {
+    padding: 20px;
+}
+
+.ingre-key {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 0px;
+    font-weight: 900;
+}
+
+.order-details .final-price {
+    display: flex;
+    align-items: flex-end;
+}
+
+.order-details .ft-price {
+    font-size: 24px;
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    font-weight: 900;
+}
+
+.order-details .price {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.order-details .ok-btn {
+    height: 50px;
+    width: 120px;
+    margin: 20px 0px 0px 120px;
+    background-color: #ffd600;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+}
