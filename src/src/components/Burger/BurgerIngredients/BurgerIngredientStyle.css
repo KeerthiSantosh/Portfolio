@@ -1,0 +1,39 @@
+  .BreadTop {
+    height: 80px;
+    background-image: url('/src/assests/Bun_up.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .BreadBottom {
+    height: 60px;
+    background-image: url('/src/assests/Bun_down.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Cheese {
+    height: 40px;
+    background-image: url('/src/assests/Cheese.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Salad {
+    height: 40px;
+    background-image: url('/src/assests/Salad.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Bacon {
+    height: 40px;
+    background-image: url('/src/assests/Meat 1.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
