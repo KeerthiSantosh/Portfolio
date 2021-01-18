@@ -1,0 +1,41 @@
+.brg-control{
+  padding:15px;
+}
+
+.brg-control div{
+  display:flex;
+  flex-direction: column;
+}
+
+.brg-label{
+  padding: 10px 0px 10px 0px;
+  width:100px;
+}
+
+.brg-control img {
+  height:60px;
+  width:60px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 10px rgba(50, 27, 6, 0.25);
+}
+
+.btn-white{
+  width: 35px;
+  height: 35px;
+  font-weight: 500;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+ .btn-white:disabled {
+  cursor: default;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ .btn-white:disabled {
+  cursor: not-allowed;
+  background-color: rgba(0,0,0,0.1);
+}
+

@@ -1,0 +1,33 @@
+.right {
+  background-color: #ffff;
+  right:0;
+  width:30%;
+}
+
+.right h1{
+ padding:20px;
+}
+
+.right .brg-child-right{
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.brg-child-right div{
+  display:flex;
+  justify-content: space-between;
+}
+
+label{
+  padding:0px 20px 20px 20px;
+}
+
+.btn-yellow:disabled {
+  background-color: #C7C6C6;
+  cursor: not-allowed;
+  border: 1px solid #ccc;
+  color: #888888;
+}

@@ -1,0 +1,77 @@
+.fs-34 {
+  font-size: 34px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18{
+  font-size:18px;
+}
+
+.fc-yellow {
+  color: #ffd600;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+.fw-bold {
+  font-weight: bold;
+}
+
+.fstyle-i {
+  font-style: italic;
+}
+
+.i-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-yellow{
+  background-color: #ffd600;
+}
+
+.btn-yellow {
+  width: 100%;
+  padding: 20px;
+  border: none;
+}
+
+.brg {
+  height: 100%;
+  position: fixed;
+}
+
+.brg-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

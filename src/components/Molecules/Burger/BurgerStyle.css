@@ -1,0 +1,26 @@
+.left {
+    width:70%;
+    background-image: radial-gradient(92.05% 50% at 50.07% 0%, #733700 0%, #201001 100%);
+}
+
+.brg-container {
+    overflow-y: scroll;
+    height: 300px;
+    margin: 100px 0px 0px 0px;
+}
+
+.brg-container::-webkit-scrollbar {
+    display: none;
+}
+
+.brg-footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.brg p{
+    padding:20px 0px 20px 0px;
+    color:rgba(255,255,255,0.3);
+}

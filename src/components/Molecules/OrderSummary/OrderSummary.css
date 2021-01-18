@@ -1,0 +1,18 @@
+.order {
+    padding: 20px 20px 0px 20px;
+  }
+  
+.order-info h1 {
+  padding: 15px;
+}
+
+.order-info p {
+  padding: 10px 0px 0px 20px;
+}
+
+.brg-order{
+    padding-top:50px;
+    display:flex;
+    justify-content: space-between;
+}
+

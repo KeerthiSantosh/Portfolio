@@ -1,21 +1,20 @@
 import React, { Component} from 'react'
-import Auxiliary from '../../HOC/Auxiliary';
-import Burger from '../../components/Burger/Burger';
-import BuildControls from '../../components/Burger/BuildControls/BuildControls';
-import Modal from '../../components/UI/Modal/Modal';
-import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import Burger from '../../components/Molecules/Burger/Burger';
+import BurgerMap from '../../components/Molecules/BurgerMap/BurgerMap';
+import Modal from '../../components/Molecules/Modal/Modal';
+import OrderSummary from '../../components/Molecules/OrderSummary/OrderSummary';
 
 const INGREDIENTS_PRICES={
         salad:3.00,
-        bacon:10.00,
-        cheese:10.00
+        cheese:10.00,
+        bacon:10.00
 }
 class BurgerBuilder extends Component {   
     state={
       ingredients:{
         salad:0,
-        bacon:0,
         cheese:0,
+        bacon:0
       }, 
       counter:{
         cheese:0,
@@ -97,7 +96,7 @@ class BurgerBuilder extends Component {
             disabledInfo[key]=disabledInfo[key]<=0
         }
         return ( 
-            <Auxiliary>
+           <div>
                 <Modal show={this.state.purchasing}>
                     <OrderSummary ingredients={this.state.ingredients}
                                    price={this.state.totalPrice}
@@ -105,7 +104,7 @@ class BurgerBuilder extends Component {
                                    />
                 </Modal>
                 <Burger ingredients={this.state.ingredients}/>
-                <BuildControls
+                <BurgerMap
                 counter={this.state.counter}
                 ingredientsAdded={this.addIngredientsHandler}
                 ingredientsRemove={this.removeIngredientsHandler}
@@ -114,7 +113,7 @@ class BurgerBuilder extends Component {
                 ordered={this.purchaseHandler}
                 disabled={disabledInfo}
                 price={this.state.totalPrice}/>
-            </Auxiliary>
+           </div>
          );
     }     
 }
